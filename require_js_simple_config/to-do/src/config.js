@@ -1,8 +1,5 @@
 require.config({
-	"baseUrl": "src",
-	"path": {
-		"nikola": "../src2"
-	}
+	"baseUrl": "src"
 });
 
-requirejs(["nikola/main"]);
+requirejs(["main"]);
